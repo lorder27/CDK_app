@@ -1,0 +1,6 @@
+{
+  "app": "npx ts-node --prefer-ts-exts bin/cdk-ecs-nginx.ts",
+  "context": {
+    "vpcId": ""  // optionally place a VPC id here, or leave blank to use fromLookup by name/tag
+  }
+}
